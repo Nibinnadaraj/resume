@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  width: 12.5in !important;
+  /* height: 17.5in !important;  */
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +15,356 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.canvas-container {
+  margin: 0 auto;
+  /* for centering, feel free to use flexbox or some other method*/
+  width: 12.5in;
+  overflow: hidden;
+}
+
+.page-container {
+  margin: 0 auto;
+  /* for centering, feel free to use flexbox or some other method*/
+  box-sizing: border-box;
+  width: 12.5in;
+  height: 17.5in;
+  background-color: white;
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+  display: grid;
+  grid-template-columns: 5.5in 7in;
+  overflow: hidden;
+  position: relative;
+}
+
+.content-container {
+  margin: 0 auto;
+  /* for centering, feel free to use flexbox or some other method*/
+  box-sizing: border-box;
+  width: 12.5in;
+  height: 17.5in;
+  background-color: white;
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+  /* display: grid;
+  grid-template-columns: 4.25in 4.25in; */
+  padding: 50px 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* professional start */
+
+.professional-container {
+  padding: 293px 50px 50px 50px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.name-heading {
+  color: #f4b184;
+  font-weight: 400;
+  font-size: 45px;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+}
+
+.professional-heading {
+  color: #f4b184;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0px 0px 20px 0px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.designation-heading {
+  color: #000;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0px 0px 20px 0px;
+  padding: 0;
+}
+
+.professional-sub-heading {
+  color: #000;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0px 0px 2px 0px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.job-detail-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.company-name {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.time-period {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.points-area {
+  margin: 5px 0px 0px 0px;
+  /* padding: 0; */
+}
+
+.details-container {
+  margin: 0px 0px 20px 0px;
+}
+.project-contaiiner{
+  margin: 0px 0px 20px 0px;
+}
+
+.point {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.point b {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.professional-texts {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0px 0px 20px 0px;
+  padding: 0;
+}
+
+.detail-item {
+  margin: 0px 0px 10px 0px;
+}
+
+/* personal start */
+
+.personal-container {
+  padding: 520px 50px 50px 50px;
+  background-color: #ececec;
+}
+
+.personal-heading {
+  color: #203864;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0px 0px 20px 0px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.personal-sub-heading {
+  color: #000;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0px 0px 4px 0px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+
+.personal-texts {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0px 0px 10px 0px;
+  padding: 0;
+}
+
+.personal-section {
+  margin: 0px 0px 20px 0px;
+}
+
+.languages-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 10px;
+}
+
+.language-name {
+  color: #000;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0px 0px 2px 0px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.language-level {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.skill-element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.skill-dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.skill-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  overflow: hidden;
+  background: #203864;
+  margin: 0px 2.5px 0px 2.5px;
+  opacity: 0.5;
+}
+
+.skill-circle-active {
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  overflow: hidden;
+  background: #203864;
+  margin: 0px 2.5px 0px 2.5px;
+}
+
+.skill-title {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  /* text-transform: uppercase; */
+}
+
+/* personal end */
+
+.shape-green {
+  content: "";
+  display: block;
+  background: orange;
+  width: 200%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: -210px;
+  z-index: 0;
+  transform: rotate(13deg);
+}
+
+.shape-blue {
+  content: "";
+  display: block;
+  background: #203864;
+  width: 200%;
+  height: 500px;
+  position: absolute;
+  left: -280px;
+  top: -380px;
+  z-index: 0;
+  transform: rotate(-22deg);
+}
+
+
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 200px;
+  overflow: hidden;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+
+/* experience start */
+
+.experience-container {
+  width: 100%;
+  height: 100%;
+  /* background-color: #ececec; */
+}
+
+.company-item {
+  -webkit-column-break-inside: avoid;
+  -o-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.experience-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.experience-contents {
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: 3px solid #ececec;
+  /* background-color: rgba(236, 236, 236, 0.7); */
+  z-index: 111;
+}
+
+
+
+.shape-green-bottom {
+  content: "";
+  display: block;
+  background: orange;
+  width: 400%;
+  height: 700px;
+  position: absolute;
+  left: 0;
+  bottom: -120px;
+  z-index: 0;
+  transform: rotate(-11deg);
+}
+
+.shape-blue-bottom {
+  content: "";
+  display: block;
+  background: #203864;
+  width: 200%;
+  height: 500px;
+  position: absolute;
+  left: -280px;
+  bottom: -390px;
+  z-index: 0;
+  transform: rotate(20deg);
+}
+
+/* experience end */
