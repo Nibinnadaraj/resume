@@ -290,7 +290,7 @@ code {
   height: 500px;
   position: absolute;
   left: -280px;
-  top: -380px;
+  top: -450px;
   z-index: 0;
   transform: rotate(-22deg);
 }
@@ -304,8 +304,8 @@ code {
   border-radius: 200px;
   overflow: hidden;
   position: absolute;
-  left: 50px;
-  top: 100px;
+  left: 90px;
+  top: 170px;
 }
 
 
